@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dajnn">
+      <UniqueIdentifier>{fe6241e9-2e92-445d-abaa-fd89a812ded6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="paddle">
+      <UniqueIdentifier>{625277b8-cb1e-43da-874e-7c76e1f7fef9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="paddle\paddle_api.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_api_2.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_image_preprocess.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_lite_factory_helper.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_place.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_use_kernels.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_use_ops.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="paddle\paddle_use_passes.h">
+      <Filter>paddle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajdense.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajfunc.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajgemm.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajmodel.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajnn.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajnorm.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajtensor.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajutil.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajconv.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dajnn\dajdef.h">
+      <Filter>dajnn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\src\dajnn\dajdense.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajfunc.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajgemm.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajmodel.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajnn.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajnorm.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajtensor.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajutil.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dajnn\dajconv.cpp">
+      <Filter>dajnn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
